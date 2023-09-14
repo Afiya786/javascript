@@ -16,3 +16,6 @@ console.log(fname.trim()) //trim will delete the extra space between strings
 
 let url = "https://afiya.com20%malik"
 console.log(url.replace('20%', '_')) //replace 20% ith _
+
+let lname = "malik"
+console.log(`heloo ${lname}`)//try to use this way of writing the code with new method using (` `) not with double quotes
