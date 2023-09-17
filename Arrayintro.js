@@ -1,4 +1,4 @@
-// #how you store and manage data
+// how you store and manage data
 
 // javascript array copy operation create shallow copy not deep copy
 // shallow copy : of an object is a copy whose properties share the same Reference point to the same underlying values  as those of the source object original gets change directly
@@ -22,6 +22,15 @@ console.log(myn2)
  console.log(array2) 
 
 //slice does not change the original array it just gives the value accordingly but splice manipulates the original array
+
+array2.push(9) //include the value in the last
+console.log(array2) 
+array2.pop() // remove the value
+// array2.unshift(9) //will include 9 in the begining
+// console.log(array2)
+
+// array2.shift() //unshift 9
+// console.log(array2)
 
 
 
