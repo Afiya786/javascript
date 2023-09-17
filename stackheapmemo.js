@@ -5,7 +5,7 @@
  console.log(myyotube)
  console.log(anothername)
 
- //primitive data type moves in stackand non-primitive goes in heap memory
+ //primitive data type moves in stack and non-primitive goes in heap memory
 
 //  non primitive directly change the value in heap whereas primitive only gives the copy of the original 
 // that's why when we assign myyoutube to anothername we give it only the copy of myyoutube to anothername and when we change anothername value the original wont get affected
