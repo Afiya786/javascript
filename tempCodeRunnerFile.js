@@ -1,1 +1,2 @@
-console.log(array2) 
+array2.push()
+// array2.pop()
