@@ -1,2 +1,9 @@
-const obj1 = {1:"a", 2:"b"}
-const obj2 = {3:"c", 4:"d"}
+
+const array1 = [100,200,300,400]
+
+function numer(getArray){
+    return getArray[1]
+
+
+}
+console.log(numer(array1))
