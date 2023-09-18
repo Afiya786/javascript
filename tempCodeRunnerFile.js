@@ -1,9 +1,6 @@
-
-const array1 = [100,200,300,400]
-
-function numer(getArray){
-    return getArray[1]
-
-
+let a = 10
+function scope(){
+    let a = 20
+    const b =30
+    console.log("this is local", a);
 }
-console.log(numer(array1))
