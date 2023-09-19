@@ -1,2 +1,3 @@
-array2.push()
-// array2.pop()
+
+const two = (username) => (`hello : ${username}`)
+console.log("afiya")
