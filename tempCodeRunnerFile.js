@@ -1,3 +1,5 @@
+  let myarray  = ['afiya','hammad','saif']
 
-const two = (username) => (`hello : ${username}`)
-console.log("afiya")
+  for(let i=0; i<=myarray.myarray; i++){
+    console.log(myarray[i])
+  }
