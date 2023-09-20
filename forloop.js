@@ -4,3 +4,14 @@
     const element = myarray[i];
     console.log(element);
   }
+
+
+//   DO WHILE LOOP: 
+
+let temp = 1
+
+do{
+    console.log(temp)
+    temp ++
+} while (temp <= 10);
+ 
