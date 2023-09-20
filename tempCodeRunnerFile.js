@@ -1,5 +1,10 @@
-  let myarray  = ['afiya','hammad','saif']
+const map = new Map()
+map.set('US',"hola")
+map.set('IN',"hollaa")
+map.set('BN',"hello")
 
-  for(let i=0; i<=myarray.myarray; i++){
-    console.log(myarray[i])
-  }
+
+
+for (const [key , value] in map) {
+    console.log(key);
+}
