@@ -1,3 +1,10 @@
+const map = new Map()
+map.set('US',"hola")
+map.set('IN',"hollaa")
+map.set('BN',"hello")
 
-const two = (username) => (`hello : ${username}`)
-console.log("afiya")
+
+
+for (const [key , value] in map) {
+    console.log(key);
+}
