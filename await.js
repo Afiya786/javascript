@@ -1,7 +1,8 @@
 const fetchuserData = new Promise(function(resolve,reject){
   setTimeout(() =>{
-    const data = {username :"maktub", password:"afiya"};
-    resolve(data);
+    const data = {username :"maktub", password:"football"};
+    
+    reject(data.password);
   }, 2000);
 });
 
