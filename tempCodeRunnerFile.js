@@ -1,3 +1,1 @@
-.then(values => {
-//     console.log(values);
-// })
+throw new Error('Subclasses must implement the speak method');
